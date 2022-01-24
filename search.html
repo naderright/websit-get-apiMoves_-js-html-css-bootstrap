@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo text-uppercase">moves db</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <a href="index.html">
+                        <li class="menu-list-item active">Home</li>
+                    </a>
+                    <li class="menu-list-item" id="movbar">Movies</li>
+                    <li class="menu-list-item">Series</li>
+                    <li class="menu-list-item">Popular</li>
+                    <li class="menu-list-item" id="trend">Trends</li>
+
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="images/profile.jpg" alt="">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <!-- <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- ======== -->
+    <div class="leave  " id="leave">
+        <div class="sidebar">
+            <a href="search.html"><i class="left-menu-icon fas fa-search"id="search-icon"></i></a>
+            <a href="index.html"> <i class="left-menu-icon fas fa-home" id="fa-home"></i>
+            </a>
+            <i class="left-menu-icon fas fa-users" ></i>
+            <i class="left-menu-icon fas fa-bookmark"></i>
+            <i class="left-menu-icon fas fa-tv" id="movdb"></i>
+            <i class="left-menu-icon fas fa-hourglass-start"></i>
+            <i class="left-menu-icon fas fa-shopping-cart"></i>
+
+        </div>
+        <i class="fas fa-arrow-right fa-2x  icon-leave" id="icon-leavein"></i>
+        <i class="fas fa-arrow-right fa-2x  icon-leave" id="icon-leave"></i>
+
+    </div>
+    <div class="search-home text-center  " id="search-home">
+        <i class="fas fa-times fa-2x position-absolute icon-close" id="icon-close"></i>
+        <div class="search-input d-flex justify-content-center py-5" id="search-input">
+            <input type="text" id="search" class="search form-control w-50"placeholder="Search...">
+            <i class="fas fa-search fa-2x icon-search" id="icon-search"></i>
+        </div>
+        <p class="warrning" id="warrning">Sorry, I can't find this name
+        </p>
+    </div>
+
+    <div class="home " id="home">
+        
+        <div class="container">
+            <div class="row align-items-center align-content-center justify-content-center" id="moves-show">
+                <div class="col-md-3">
+                    .
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="display-data" id="display-data">
+        <i class="fas fa-times fa-2x  close-data" id="close-show"></i>
+        <div class="container">
+            <div class=" moves-content row align-items-center  align-content-center py-5 vh-100">
+                <div class="col-sm-6">
+                    <div class="details-showen">
+                        <h2 id="name-poster">nager</h2>
+                        <p id="desc-poster">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quidem.
+                        </p>
+                        <div class="stars" id="star-move">
+
+                        </div>
+                        <div class="btn-watch py-5 ">
+                            <button class="btn btn-danger">Watch Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 d-flex justify-content-center">
+                    <div class="image w-75 h-50 ">
+                        <img id="img-current" src="images/8.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <footer>
+        <div class="footer py-2" id="footer">
+            <h2>nadercs2018@gmail.com <span>nadercs2018</span></h2>
+            <div class="icon-footer d-flex align-items-center">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-yahoo"></i>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/search.js"></script>
+</body>
+
+</html>
